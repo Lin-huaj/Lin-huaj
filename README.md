@@ -1,16 +1,46 @@
-## Hi there 👋
+# Hi there 👋
 
-<!--
-**Lin-huaj/Lin-huaj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 关于我
 
-Here are some ideas to get you started:
+我是一名计算机学院的大三学生，正在积极探索技术的广度和深度。目前对**人工智能方向**尤其感兴趣，包括机器学习、深度学习和自然语言处理等领域。希望未来能在 AI 领域深耕，做出有实际价值的应用。
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+我相信技术不只是工具，更是一种理解世界、解决问题的方式。在不断学习的过程中，我也在努力提升自己的工程能力和眼界，尝试把理论应用到实践中。
+
+---
+
+## 🔧 技术栈与工具
+
+- **编程语言**：Python / C / Java（熟悉）
+- **AI / 机器学习**：PyTorch（学习中）、scikit-learn（基础）
+- **开发工具**：VS Code、Git、GitHub
+- **其他**：Markdown
+
+---
+
+## 🌱 我正在学习
+
+- 深度学习基础（神经网络、CNN、RNN、Transformer）
+- 动手实现经典模型，而不只是调包
+- 提升代码规范与工程化能力
+- 阅读英文文献和技术博客，持续输入
+
+---
+
+## 🧭 长期目标
+
+- 能够参与ai底层方面的研究，在帮助ai进化方面做出贡献
+- 在 AI 方向找到自己更细分的研究兴趣（如 NLP / CV / 多模态）
+- 参与开源项目，或独立完成一个有完整周期的 AI 应用
+- 进入一流的技术团队，和优秀的人一起成长
+
+---
+
+## 📫 联系我
+
+- GitHub: [你的GitHub用户名](https://github.com/Lin-huaj)
+- 邮箱：2483419359@qq.com
+
+---
+
+> "Stay hungry, stay foolish."  
+> 持续学习，保持好奇，认真输出。
