@@ -85,6 +85,35 @@ python main.py -h
 
 ---
 
+## 内置示例
+
+`examples/` 目录下附带了一套完整的判题示例，可以直接用来体验判题功能：
+
+```
+examples/
+├── Exercises.txt        # 10 道题目（seed=42 生成）
+├── Answers.txt          # 标准答案
+├── StudentAnswers.txt   # 学生作答（第 2、5、8 题故意改错）
+└── Grade.txt            # 判题结果
+```
+
+复现判题：
+
+```bash
+python main.py -e examples/Exercises.txt -a examples/StudentAnswers.txt
+```
+
+预期输出（`Grade.txt`）：
+
+```
+Correct: 7 (1, 3, 4, 6, 7, 9, 10)
+Wrong: 3 (2, 5, 8)
+```
+
+其中第 2 题学生答 `99`（正确是 `9'1/2`）、第 5 题学生答 `1/2`（正确是 `0`）、第 8 题学生答 `0`（正确是 `49`），其余 7 题正确。
+
+---
+
 ## 题目格式约定
 
 | 表示 | 含义 |
@@ -104,9 +133,15 @@ python main.py -h
 ```
 four-arithmetic-operations/
 ├── main.py              # 主程序（命令行入口 + 核心逻辑）
+├── requirements.txt     # 依赖说明（仅标准库，无第三方包）
 ├── README.md            # 项目说明
 ├── LICENSE              # MIT 许可证
 ├── .gitignore
+├── examples/            # 判题功能示例
+│   ├── Exercises.txt
+│   ├── Answers.txt
+│   ├── StudentAnswers.txt
+│   └── Grade.txt
 └── tests/
     └── test_main.py     # 单元测试
 ```
