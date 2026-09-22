@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# 生成的题目与答案文件（运行产物，不入库）
+Exercises.txt
+Answers.txt
+Grade.txt
+*_wrong.txt
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# 测试缓存
+.pytest_cache/
+.coverage
+htmlcov/
